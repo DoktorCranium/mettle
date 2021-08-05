@@ -1,5 +1,5 @@
-Mettle
-======
+Mettle Apple M1 
+===============
 
 This is an implementation of a native-code Meterpreter, designed for
 portability, embeddability, and low resource utilization. It can run on the
@@ -7,21 +7,9 @@ smallest embedded Linux targets to big iron, and targets Android, iOS, macOS,
 Linux, and Windows, but can be ported to almost any POSIX-compliant
 environment.
 
-Building on Linux
-------------
 
-Debain, Ubuntu, and derivatives are most supported for builds. To build, you need at least 5GB of free disk space, and the following packages available:
-
-```
-# Dependencies
-apt install curl build-essential git autoconf automake libtool bison flex gcc ruby rake bundler git mingw-w64
-```
-
-The Dockerfile under docker/Dockerfile contains a pre-configured build
-environment as well.
-
-Building on macOS
-------------
+Building on macOS M1 (ARM64)
+-----------------------------
 
 On macOS you will need to install the xcode command line tools as follows:
 
